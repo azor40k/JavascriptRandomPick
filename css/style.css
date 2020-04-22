@@ -1,0 +1,36 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    margin: auto;
+}
+
+header,
+body h1,
+ol,
+fieldset {
+    text-align: center;
+}
+
+body h1 {
+    font-size: 45px;
+    font-weight: bolder
+}
+
+fieldset {
+    background: #d9d9d9;
+    width: 50%;
+    margin: auto;
+}
+
+ol li {
+    margin: auto;
+    width: 50%;
+    background: beige;
+    font-size: 20px;
+    border: 1px solid #000;
+}

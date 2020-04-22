@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet">
+    <title>Michel et Augustin - Tombola</title>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img class="logo" src="img/logo.jpg" witdh="300px" alt=""></a>
+
+        <h1>LA TOMBOLA DE MICHEL ET AUGUSTIN</h1>
+
+        <br><br>
+
+    </header>
+
+    <div class="container">
+
+       <!-- FORMULAIRE AJOUT DES PARTICIPANTS-->
+        <fieldset><br>
+            <input type="text" id="txt"><br><br>
+            <button onclick="ajouter()">Ajouter</button><br><br>
+            <button onclick="choix()">Tirer le Gagnant</button><br><br>
+        </fieldset><br>
+
+        <!-- LISTE DES PARTICIPANT-->
+        <ol id="list"></ol>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
